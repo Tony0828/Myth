@@ -3,7 +3,7 @@ const questions = [
         question: "You should only drink cold water if you are sick.",
         answers: [
             { text: "True", correct: false},
-            { text: "False", correct: false},
+            { text: "False", correct: true},
          
         ]
     },
@@ -53,7 +53,7 @@ const questions = [
         ]
     }, 
     {
-        question: "What cause the common cold?",
+        question: "What directly causes the common cold?",
         answers: [
             { text: "Viruses", correct: true},
             { text: "Cold temperatures", correct: false},
@@ -91,7 +91,7 @@ const questions = [
     {
         question: "Why does the sun appear yellow to us?",
         answers: [
-            { text: "Debree and dust in space filters out the other colours of light", correct: false},
+            { text: "Debris and dust in space filters out the other colours of light", correct: false},
             { text: "The earths atmosphere scatters the shorter wave lengths of light leaving behind yellow", correct: true},
             { text: "The earths atmosphere only absorbs yellow light", correct: false},
             { text: "The earths atmosphere scatters the longer wave lengths of light leaving behind yellow", correct: false},
@@ -134,7 +134,7 @@ const questions = [
         ]
     },
     {
-        question: "Why do people belive that fishes have a terrible memory?",
+        question: "Why do people believe that fishes have a terrible memory?",
         answers: [
             { text: "The perform repeating behaviors such as wimming in circles", correct: true},
             { text: "Their brains are too small to have a good memory", correct: false},
@@ -161,7 +161,7 @@ const questions = [
         ]
     },
     {
-        question: "How much energy does our brain use?",
+        question: "What percentage of energy from our body does our brain use?",
         answers: [
             { text: "Around 5%", correct: false},
             { text: "Around 20%", correct: true},
