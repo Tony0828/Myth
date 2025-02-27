@@ -4,8 +4,7 @@ const questions = [
         answers: [
             { text: "True", correct: false},
             { text: "False", correct: false},
-            { text: "Cold water is better, but warm water is fine", correct: false},
-            { text: "Warm water is better, but cold water is fine", correct: true},
+         
         ]
     },
     {
